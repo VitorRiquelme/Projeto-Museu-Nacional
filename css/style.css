@@ -1,0 +1,47 @@
+/*Estilo do topo do site*/
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700&display=swap');
+body{
+    background-color: #f4f2ec;
+    background: url(../images/fundo.png) repeat-x;
+    font: 12px;
+    font-family: 'Source Sans Pro',sans-serif;
+}
+#container{
+    width: 1080px;
+    margin: 0 auto;
+}
+a:link , a:active, a:visited{
+    color: #af670a;
+    text-decoration: none;
+}
+a:hover{
+    color: #227115
+}
+#logo a{
+    width: 248px;
+    height: 21px;
+    text-indent: -999px;
+    display: block;
+    background: url(../images/logo.png) no-repeat;
+}
+header{
+    padding: 15px 0;
+    height: 55px;
+}
+nav{
+    display: flex;
+    justify-content: flex-end;
+}
+nav ul{
+    list-style: none;
+    margin: 20px;
+    display: flex;
+}
+nav ul li a:link{
+    margin-right: 25px;
+    padding-bottom: 3px;
+    text-transform: uppercase;
+}
+nav ul li a:hover{
+    border-bottom: 1px solid #535858;
+}
