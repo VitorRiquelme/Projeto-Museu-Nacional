@@ -1,4 +1,4 @@
-/*Estilo do topo do site*/
+
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700&display=swap');
 body{
     background-color: #f4f2ec;
@@ -10,6 +10,7 @@ body{
     width: 1080px;
     margin: 0 auto;
 }
+/*Estilo do topo do site*/
 a:link , a:active, a:visited{
     color: #af670a;
     text-decoration: none;
@@ -46,4 +47,59 @@ nav ul li a:link{
 }
 nav ul li a:hover{
     border-bottom: 1px solid #535858;
+}
+/*Estilo da parte principal do site*/
+#conteudo{
+    width: 710px;
+    float: left;
+}
+#lateral{
+    width: 350px;
+    float: right;
+    background-color: #ebe7dd;
+    padding-bottom: 30px;
+}
+#visita{
+    background-color: #cdc8b1;
+    padding: 10px 27px 27px 27px;
+    margin-top: 10px;
+}
+h4{
+    color: #86521a;
+    text-transform: uppercase;
+    padding-bottom: 3px;
+    margin-bottom: 0;
+}
+input{
+    height: 20px;
+    background-color: white;
+    border: none;
+    font-size: 1em;
+    width: 80px;
+}
+input.campo{
+    border: 1px solid #ada848;
+}
+input.butao{
+    background-color: #9b9271;
+    color: white;
+    width: 100%;
+    height: 40px;
+    font-size: 1.2em;
+}
+fieldset{border: none;}
+legend{display: none;}
+#galeria{
+    padding: 0 27px 0 27px;
+}
+#galeria a{
+    display: block;
+    background: url(../images/fundo-foto.png) no-repeat;
+    float: left;
+    padding: 17px 15px 17px 15px;
+    margin: 10px 0px 0px 20px;
+}
+#galeria img{
+    margin-left: 2px;
+    margin-top: 3px;
 }
